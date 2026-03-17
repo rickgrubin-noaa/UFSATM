@@ -301,7 +301,6 @@ endif()
 
 # Always include EMC libraries in dycore install
 target_link_libraries(${DYCORE_TARGET} PUBLIC w3emc::w3emc_d
-                                              sp::sp_d
                                               bacio::bacio_4
                                               ESMF::ESMF)
 
